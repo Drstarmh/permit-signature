@@ -1,0 +1,10 @@
+compute impermanent loss for volatile pairs
+Compares holding vs LP position value over time
+
+Uses initial and current reserve ratios for calculation
+
+Displays IL as percentage relative to HODL scenario
+
+Works with both stable and volatile token pairs
+
+Returns total cost in ETH and USD for user review
