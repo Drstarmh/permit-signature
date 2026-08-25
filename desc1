@@ -1,0 +1,8 @@
+add EIP-2612 permit signature for gasless approvals
+Generates permit signature payload (types, domain, values)
+
+Signs off-chain using wallet's signTypedData_v4
+
+Submits permit alongside transaction for one-step approval
+
+Eliminates separate approve() transaction gas cost
