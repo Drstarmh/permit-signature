@@ -1,0 +1,8 @@
+add subgraph queries for pool history
+Queries The Graph endpoints for pool transaction data
+
+Fetches daily volume, TVL, and fee history
+
+Supports filtering by date range and pool address
+
+Formats data for charts and analytics dashboards
