@@ -1,0 +1,6 @@
+add multicall batching for DeFi reads
+Aggregates multiple view function calls into one RPC request
+Reduces network latency and improves frontend performance
+Uses Multicall3 contract for efficient batching
+
+Returns decoded results for each call in the batch
