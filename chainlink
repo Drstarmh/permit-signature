@@ -1,0 +1,8 @@
+add chainlink price feed oracle reader
+Fetches latest round data from Chainlink aggregators
+
+Converts raw answer to human-readable decimal format
+
+Validates timestamp to ensure price freshness
+
+Supports multiple pairs (ETH/USD, BTC/USD, etc.)
