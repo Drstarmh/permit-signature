@@ -1,0 +1,7 @@
+add liquidation health factor checker
+Computes collateral value in USD using oracle prices
+Calculates borrowed value with accrued interest
+
+Determines health factor for Aave/Compound positions
+
+Warns user when health factor drops below 1.1
