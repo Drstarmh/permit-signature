@@ -1,0 +1,8 @@
+gas cost estimator for batched txs
+Simulates transaction sequences using eth_estimateGas
+
+Sums up gas usage across multiple contract calls
+
+Applies current gas price (priority + base fee)
+
+Returns total cost in ETH and USD for user review
