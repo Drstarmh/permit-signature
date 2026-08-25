@@ -1,0 +1,8 @@
+add token allowance and approve helper
+Checks current allowance for ERC20 spender contracts
+
+Approves exact amount or unlimited spending when needed
+
+Handles approval race conditions with permit fallback
+
+Displays approval status in UI with loading states
