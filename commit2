@@ -1,0 +1,6 @@
+# Clone all your repos and count
+curl -s https://api.github.com/users/your-username/repos | \
+  jq -r '.[].clone_url' | \
+  while read repo; do
+    git ls-remote $repo HEAD | cut -f1
+  done | wc -l
