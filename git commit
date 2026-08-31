@@ -1,0 +1,11 @@
+# Install GitHub CLI first: https://cli.github.com/
+
+# Count commits for a specific repo
+gh api repos/your-username/your-repo/commits --paginate | jq length
+
+# Or simpler with octokit
+gh api users/your-username/repos --jq '.[].name' | \
+  while read repo; do
+    count=$(gh api repos/your-username/$repo/commits --paginate | jq length)
+    echo "$repo: $count"
+  done
